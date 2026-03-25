@@ -6,7 +6,7 @@ import xlsx from "xlsx";
 import bcrypt from "bcryptjs";
 import fs from "fs";
 
-// ✅ CREATE COURSE 
+// CREATE COURSE 
 export const createCourse = async (req, res) => {
   try {
     const { courseName, professorId } = req.body;
